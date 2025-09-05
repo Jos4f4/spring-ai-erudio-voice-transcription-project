@@ -1,0 +1,17 @@
+package br.com.erudio.service;
+
+import org.springframework.ai.openai.OpenAiAudioTranscriptionModel;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
+@Service
+public class TranscriptionService {
+	
+	private final OpenAiAudioTranscriptionModel transcriptionModel;
+
+	public TranscriptionService(@Value("${spring.ai.open.ai-key}") String apiKey) {
+		super();
+		this.transcriptionModel = transcriptionModel;
+	}
+	
+}

@@ -1,0 +1,10 @@
+package br.com.erudio.service;
+
+import org.springframework.ai.openai.OpenAiAudioTranscriptionModel;
+import org.springframework.stereotype.Service;
+
+@Service
+public class TranscriptionService {
+	
+	private final OpenAiAudioTranscriptionModel transcriptionModel;
+}

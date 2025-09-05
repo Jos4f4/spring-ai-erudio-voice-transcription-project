@@ -1,0 +1,9 @@
+spring:
+ application:
+  name:
+   spring-ai-erudio-voice-transcription
+
+#Configuration environmment variables API KEY
+  ai:
+    openai:
+      api-key: ${OPEN_AI_API_KEY}

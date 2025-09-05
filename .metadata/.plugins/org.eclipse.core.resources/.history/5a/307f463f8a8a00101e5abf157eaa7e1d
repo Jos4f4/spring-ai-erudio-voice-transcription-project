@@ -1,0 +1,8 @@
+package br.com.erudio.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class TranscriptionService {
+
+}
