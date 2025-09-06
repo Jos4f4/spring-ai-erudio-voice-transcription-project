@@ -18,7 +18,7 @@ public class TranscriptionService {
 	
 	private final OpenAiAudioTranscriptionModel transcriptionModel;
 
-	public TranscriptionService(/*@Value("${spring.ai.openai.api-key}")*/ String apiKey) {
+	public TranscriptionService(/*@Value("${spring.ai.openai.api-key}")*/ String apiKey) { // IMPLEMENTED ONLY FOR TESTS - API KEY NOT EXIST
 		OpenAiAudioApi openAiAudioApi = OpenAiAudioApi.builder()
 				.apiKey(apiKey)
 				.build();
